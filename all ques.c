@@ -770,26 +770,32 @@ b) GREEN, if either g or G is assigned to color
 c) BLUE, if either b or B is assigned to color
 d) BLACK, if color assigned is any other
 
+
+
+
 #include<stdio.h>
 void main()
 {
-    char color;
+     color;
     printf("\n Enter character in color:");
     scanf("%c",&color);
     switch(color)
     {
-    case 'r'  or 'R' :print:("\n GREEN");
+    case 'r':
+    case  'R':printf("\n GREEN");
                       break;
-
-        case 'g' or 'G' : print:("\n GREEN");
+        case 'g' :
+        case  'G' : printf("\n GREEN");
                           break;
-        case 'b' or 'B' : printf("\n BLUE");
+       case 'b':
+       case 'B': printf("\n BLUE");
                           break;
         default : printf("\n BLACK");
                   break;
     }
     getchar();
 }
+
 
 #25  write an appropriate control structure that will examine the value of a floating point variable called temp
 and print one of the following messages,depending on the value assigned to temp.
