@@ -1,9 +1,9 @@
-#1.	Given an integer, n, perform the following conditional actions:
+/*#1.	Given an integer, n, perform the following conditional actions:
 
 If n is odd, print Weird
 If n is even and in the inclusive range of 2 to 5, print Not Weird
 If n is even and in the inclusive range of 6 to 20, print Weird
-If n is even and greater than 20, print Not Weird
+If n is even and greater than 20, print Not Weird. */
 
 #include<stdio.h>
 int main()
@@ -36,7 +36,7 @@ int main()
 }
 
 
-#2.	Write a C program to find maximum between two numbers
+/*#2.	Write a C program to find maximum between two numbers.*/
 
 #include<stdio.h>
 
@@ -59,7 +59,7 @@ return(0);
 }
 
 
-#3.	Write a C program to find maximum between three numbers
+/*#3.	Write a C program to find maximum between three numbers.*/
 
 #include<stdio.h>
 
@@ -100,7 +100,7 @@ return(0);
 }
 
 
-#4.	Write a C program to check whether a number is negative, positive or zero.
+/*#4.	Write a C program to check whether a number is negative, positive or zero.*/
 
 #include<stdio.h>
 
@@ -127,7 +127,7 @@ int main()
 }
 
 
-#5.	Write a C program to check whether a number is divisible by 5 and 11 or not.
+/*#5.	Write a C program to check whether a number is divisible by 5 and 11 or not.*/
 
 #include<stdio.h>
 
@@ -149,7 +149,7 @@ int main()
  return(0);
 }
 
-#6.	Write a C program to check whether a number is even or odd
+/*#6.	Write a C program to check whether a number is even or odd*/
 
 #include<stdio.h>
 
@@ -170,7 +170,7 @@ void main()
  getchar();
 }
 
-#7.	Write a C program to check whether a year is leap year or not.
+/*#7.	Write a C program to check whether a year is leap year or not*/.
 
 #include<stdio.h>
 
@@ -191,7 +191,7 @@ void main()
  getchar();
 }
 
-#8.	Write a C program to check whether a character is alphabet or not.
+/*#8.	Write a C program to check whether a character is alphabet or not.*/
 
 #include<stdio.h>
 
@@ -212,7 +212,7 @@ void main()
  getchar();
 }
 
-#9.	Write a C program to input any alphabet and check whether it is vowel or consonant.
+/*#9.	Write a C program to input any alphabet and check whether it is vowel or consonant.*/
 
 #include<stdio.h>
 
@@ -245,7 +245,7 @@ void main()
  getchar();
 }
 
-#10.	Write a C program to input any character and check whether it is alphabet, digit or special character
+/*#10.	Write a C program to input any character and check whether it is alphabet, digit or special character.*/
 
 #include<stdio.h>
 
@@ -271,7 +271,7 @@ getchar();
 }
 
 
-#11.	Write a C program to check whether a character is uppercase or lowercase alphabet.
+/*#11.	Write a C program to check whether a character is uppercase or lowercase alphabet.*/
 
 #include<stdio.h>
 
@@ -299,7 +299,7 @@ void main()
  getchar();
 }
 
-#12.	Write a C program to input week number and print week day.
+/*#12.	Write a C program to input week number and print week day.*/
 
 #include<stdio.h>
 
@@ -330,7 +330,7 @@ void main()
  getchar();
 }
 
-#13.	Write a C program to input month number and print number of days in that month.
+//#13.	Write a C program to input month number and print number of days in that month.
 
 
 #include<stdio.h>
@@ -372,7 +372,7 @@ void main()
 }
 
 
-#14.	Write a C program to count total number of notes in given amount.
+//#14.	Write a C program to count total number of notes in given amount.
 
 #include<stdio.h>
 
@@ -412,7 +412,7 @@ long n,th,fh,h,f,tw,t,fc,tc,oc;
 }
 
 
-#15.	Write a C program to input angles of a triangle and check whether triangle is valid or not.
+//#15.	Write a C program to input angles of a triangle and check whether triangle is valid or not.
 
 
 #include<stdio.h>
@@ -435,7 +435,7 @@ void main()
 }
 
 
-#16.	Write a C program to input all sides of a triangle and check whether triangle is valid or not.
+//#16.	Write a C program to input all sides of a triangle and check whether triangle is valid or not.
 
 #include<stdio.h>
 
@@ -456,7 +456,7 @@ void main()
  getchar();
 }
 
-#17.	Write a C program to check whether the triangle is equilateral, isosceles or scalene triangle.
+//#17.	Write a C program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
 #include<stdio.h>
 
@@ -490,7 +490,7 @@ void main()
 }
 
 
-#18.	Write a C program to find all roots of a quadratic equation.
+//#18.	Write a C program to find all roots of a quadratic equation.
 
 #include<stdio.h>
 
@@ -510,7 +510,7 @@ void main()
   getchar();
 }
 
-#19.	Write a C program to calculate profit or loss.
+//#19.	Write a C program to calculate profit or loss.
 
 #include<stdio.h>
 
@@ -561,14 +561,14 @@ void main()
 }
 
 
-#20.	Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+/*#20.	Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 Percentage >= 90% : Grade A
 Percentage >= 80% : Grade B
 Percentage >= 70% : Grade C
 Percentage >= 60% : Grade D
 Percentage >= 40% : Grade E
 Percentage < 40% : Grade F
-
+*/
 
 #include<stdio.h>
 
@@ -671,11 +671,11 @@ grade='E';
 }
 
   
-#21.	Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
+/*#21.	Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
 Basic Salary <= 10000 : HRA = 20%, DA = 80%
 Basic Salary <= 20000 : HRA = 25%, DA = 90%
 Basic Salary > 20000 : HRA = 30%, DA = 95%
-
+*/
 
 #include<stdio.h>
 void main()
@@ -705,12 +705,12 @@ void main()
 }
 
 
-#22.	Write a C program to input electricity unit charges and calculate total electricity bill according to the given condition:
+/*#22.	Write a C program to input electricity unit charges and calculate total electricity bill according to the given condition:
 For first 50 units Rs. 0.50/unit
 For next 100 units Rs. 0.75/unit
 For next 100 units Rs. 1.20/unit
 For unit above 250 Rs. 1.50/unit
-An additional surcharge of 20% is added to the bill
+An additional surcharge of 20% is added to the bill.*/
 
 
 #include<stdio.h>
@@ -734,13 +734,13 @@ void main()
 }
 
 
-#23 write a switch statement that will examine the value of an integer variable called flag and print one of 
+/*#23 write a switch statement that will examine the value of an integer variable called flag and print one of 
 the following messages , depending on the value assigned to flag.
 a) HOT, if flag has a value of 1
 b) LUKE WARM, if flag has a value of 2
 c)COLD, if flag has a vlue of 3
 d) OUT OF RANGE, if flag has any other value
-
+*/
 
 #include<stdio.h>
 void main()
@@ -763,14 +763,14 @@ void main()
 }
 
 
-#24  write a switch statement that will examine the value of a char type variable called color and print one of the 
+/*#24  write a switch statement that will examine the value of a char type variable called color and print one of the 
 following messages,depending on the value assigned to color
 a) RED, if either r or R is assigned to color
 b) GREEN, if either g or G is assigned to color
 c) BLUE, if either b or B is assigned to color
 d) BLACK, if color assigned is any other
 
-
+*/
 
 
 #include<stdio.h>
@@ -797,13 +797,13 @@ void main()
 }
 
 
-#25  write an appropriate control structure that will examine the value of a floating point variable called temp
+/*#25  write an appropriate control structure that will examine the value of a floating point variable called temp
 and print one of the following messages,depending on the value assigned to temp.
 a) ICE, if the value of temp is less than 0
 b) WATER, if the value of temp is between 0 and 100
 c) STEAM, if the value of temp is greater than 100
 
-
+*/
 #include<stdio.h>
 void main()
 {
