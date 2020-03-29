@@ -818,3 +818,42 @@ void main()
         printf("\n STEAM");
     getchar();
 }
+
+
+/*#26 Program to check if a character is alphabet,digit or special character.  */
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char a;
+printf("enter any character");
+scanf("%c",&a);
+	if((a>64 && a<91) || (a>96 && a<123)) 
+			printf("Alphabet");
+	else if(a>47 && a<58) 
+		printf("digit");
+	else
+		 printf("special character");
+getch();
+}
+
+/*#27 program to print reverse a given number.*/
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n,d,s=0;
+printf("Enter the number");
+scanf("%d",&n);
+while(n>0)
+{
+d=n%10;
+s=s*10+d;
+n=n/10;
+}
+printf("The reverse is %d",s);
+getch();
+}
+
