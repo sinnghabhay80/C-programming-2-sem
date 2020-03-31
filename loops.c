@@ -418,7 +418,7 @@ void main()
 }
 
 
-/*	Write a program to print all the even and odd numbers of a certain range as indicated by the user*/
+/*12	Write a program to print all the even and odd numbers of a certain range as indicated by the user*/
 
 #include<stdio.h>
 void main()
@@ -454,7 +454,7 @@ void main()
 
 
 
-/*	Write a C program to convert the binary equivalent of an integer number without using an array*/
+/*13.	Write a C program to convert the binary equivalent of an integer number without using an array*/
 
 
 #include<stdio.h>
@@ -475,7 +475,7 @@ void main()
  getchar();
  }
 
-/*	Write a C program to find the prime factors of a number given by the user*/
+/*14.	Write a C program to find the prime factors of a number given by the user*/
 
 #include<stdio.h>
 void main()
@@ -505,7 +505,7 @@ void main()
     getchar();
 }
 
-/*	Write a C program to check whether a number is a power of 2 or not*/
+/*15.	Write a C program to check whether a number is a power of 2 or not*/
 
 #include<stdio.h>
 #include<math.h>
@@ -533,7 +533,7 @@ void main()
     getchar();
 }
 
-/*	Write a program to find the GCD of two numbers*/
+/*16.	Write a program to find the GCD of two numbers*/
 
 #include <stdio.h>
 void main()
@@ -555,7 +555,7 @@ void main()
 }
 
 
-/*	Write a program to find the sum of digits of a number given by the user*/
+/*17.	Write a program to find the sum of digits of a number given by the user*/
 
 
 #include<stdio.h>
@@ -576,7 +576,7 @@ void main()
 }
 
 
-/*	Write a C program to calculate the sum of prime numbers in a range*/
+/*18.	Write a C program to calculate the sum of prime numbers in a range*/
 
 
 #include<stdio.h>
@@ -603,7 +603,7 @@ void main()
    getchar();
  }
 
- /*	Write a C program to print the sum of the following series up to n terms where n is given by the user
+ /*19.	Write a C program to print the sum of the following series up to n terms where n is given by the user
 
          1+x+x^2/2+x^3/3+... (value of x given by user)              */
 
@@ -632,7 +632,7 @@ void main()
 
   }
 
-  /*	Write a C program to print the sum of the following series up to n terms where n is given by the user.
+  /*20.	Write a C program to print the sum of the following series up to n terms where n is given by the user.
 
           x-x^3/3+x^5/5-... (value of x given by user)   */
 
@@ -661,7 +661,7 @@ void main()
   getchar();
   }
 
-  /*Write a C program to print the following series: 0 1 1 2 3 5 8 13 .... The number of terms to be printed should be given by the user.
+  /*21. Write a C program to print the following series: 0 1 1 2 3 5 8 13 .... The number of terms to be printed should be given by the user.
 */
 
   #include<stdio.h>
@@ -683,7 +683,7 @@ void main()
 }
 
 
-/*	Write a C program to print the numbers that do not appear in the Fibonacci series. The number of such terms to be printed should be given by the user.*/
+/*22.	Write a C program to print the numbers that do not appear in the Fibonacci series. The number of such terms to be printed should be given by the user.*/
 
 
 #include<stdio.h>
@@ -715,7 +715,7 @@ void main()
  getchar();
 }
 
-/*	Write a program to check whether a number is a Krishnamurty number or not. A Krishnamurty number is one whose sum of factorial of digits equals the number*/
+/*23.	Write a program to check whether a number is a Krishnamurty number or not. A Krishnamurty number is one whose sum of factorial of digits equals the number*/
 
 #include<stdio.h>
 void main()
