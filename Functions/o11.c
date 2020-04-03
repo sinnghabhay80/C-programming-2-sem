@@ -2,7 +2,7 @@
 #include<stdio.h>
 int sod(int x)
 {
-  int i,y;
+  int i,y=0;
   for(i=1;x>0;i++)
   {
       y+=(x%10);
