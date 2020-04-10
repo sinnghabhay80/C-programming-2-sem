@@ -1,4 +1,4 @@
-/*#14. Program to check for a string to be pallendrome by Functions. */
+/*#14. Program to check for a string to be pallendrome by Functions and then reversing it. */
 #include<stdio.h>
 #define MAX 20
 
