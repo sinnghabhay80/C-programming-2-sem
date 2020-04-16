@@ -1,4 +1,4 @@
-/*#116. Program to extract a substr from a given string and then compare it with the second user entered string. */
+/*#16. Program to extract a substr from a given string and then compare it with the second user entered string. */
 #include<stdio.h>
 #define MAX 30
 char substr[MAX];
